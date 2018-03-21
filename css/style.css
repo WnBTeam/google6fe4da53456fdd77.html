@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    width: 100%;
+}
+
+.banner{
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url(../img/banner.jpeg);
+    background-size: 100%;
+    text-align: center;
+    color: white;
+    padding: 120px 30px;
+}
+
+.banner p{
+    padding-top: 40px;
+    font-size: 1.8rem;
+    display: none;
+}
+
+.banner h1{
+    font-weight: 900;
+    font-size: 1.6rem;
+}
+
+.description, .solutions, .technologies, .contact{
+    text-align: center;
+    padding: 40px 30px;
+}
+
+.description h2, .solutions h2, .technologies h2, .contact h2{
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+}
+
+.description p, .contact p{
+    font-size: 1.25rem;
+}
+
+.solutions, .contact{
+    background-color: #f7f7f7;
+}
+
+.solutions .solution h3{
+    font-size: 1.5rem;
+    margin-bottom: 26px;
+}
+.solutions .solution p{
+    margin: 10px 0 40px;
+}
+
+.technologies .technology{
+    margin-bottom: 40px;
+}
+
+.contact a{
+    color: #d65d45;
+}
+.contact a:hover{
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+footer{
+    height: 100px;
+    text-align: center;
+    color: white;
+    padding-top: 57px;
+    font-size: 0.9rem;    
+    background-color: rgba(0, 0, 0, 0.85);
+}
+@media(min-width:480px){
+    .banner{
+        height:300px;
+        padding: 70px 30px;
+    } 
+    .banner p{
+        display: block;
+    }
+
+    .banner h1{
+        font-size: 3rem;
+    }
+}
+@media(min-width:600px){
+    .banner{
+        height:400px;
+        padding: 120px 30px;
+    } 
+}
+@media(min-width:768px){
+    .banner{
+        height: 500px;
+        padding: 180px 50px;
+    }
+}
+@media(min-width:992px){}
+@media(min-width:1200px){}
